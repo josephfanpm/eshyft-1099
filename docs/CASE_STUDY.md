@@ -1,5 +1,7 @@
 # Case study: moving nurses from W-2 to 1099
 
+The long-form story behind the [README](../README.md) summary, including the PESTLE review and sources. Requirements and key flows are in the [PRD](PRD.md).
+
 I was the product manager who proposed and led this change at ESHYFT, a marketplace where nursing homes post per diem shifts and CNAs, LPNs and RNs pick them up. On January 1, 2026, ESHYFT stopped employing nurses as W-2 employees and started working with them as 1099 independent contractors. The [interactive prototype](https://josephfanpm.github.io/eshyft-1099/) in this repo is my own before-and-after recreation of what changed in the apps, built for this portfolio. It uses made-up facilities and illustrative rates and tax figures, and leaves out ESHYFT's branding.
 
 ## Why ESHYFT started as a W-2 employer
