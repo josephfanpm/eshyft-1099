@@ -2,7 +2,9 @@
 
 I proposed and led ESHYFT's switch from employing nurses as W-2 employees to working with them as 1099 independent contractors. It launched on January 1, 2026. Since launch, revenue is up by over 80% and fill rate has roughly doubled.
 
-**[Try the interactive prototype](https://josephfanpm.github.io/eshyft-1099/)** · [Full case study](docs/CASE_STUDY.md) · [Requirements (PRD)](docs/PRD.md)
+**[Try the live demo: interactive prototype](https://josephfanpm.github.io/eshyft-1099/)** · [Full case study](docs/CASE_STUDY.md) · [Requirements (PRD)](docs/PRD.md)
+
+Try this first: switch between Before: W-2 and After: 1099, then apply to a shift and compare a W-2 paycheck with a contractor payout.
 
 
 ![The prototype on desktop: a phone showing the nurse app, with a W-2 / 1099 switch and a list of what changed beside it](docs/screenshots/desktop.png)
@@ -159,6 +161,15 @@ npm run dev     # http://localhost:5173
 npm test        # pay and bill-rate logic tests
 npm run build
 ```
+
+## Limitations
+
+- The prototype is my own before-and-after recreation, not the shipped app. Facilities, rates and tax figures are made up, ESHYFT branding is left out, and no confidential data is used. The line items and rules follow what shipped, but the numbers in the demo are illustrative.
+- The revenue and fill rate results are real measured results from the launch, but this README does not state the measurement window or what else changed in that period, so it does not prove the switch alone caused the full lift.
+- A small number of states stayed W-2, so the switch was not universal. Screen layouts did not change, only classification, pay, pricing, language and consent.
+- In-app tax help was not built: collecting W-9s, delivering 1099s electronically, and showing how much to set aside from each payout. That was proposed as a follow-up in the roadmap.
+- What I would do next: build the in-app tax help first, test an estimated take-home amount next to the posted rate, and track state legislation so the remaining W-2 states can move when the law allows.
+- This writeup does not state team size or who else worked on the change, so the scope of my role here is the work described, not a team chart.
 
 ## Credits
 
