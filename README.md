@@ -2,7 +2,7 @@
 
 I proposed and led ESHYFT's switch from employing nurses as W-2 employees to working with them as 1099 independent contractors. It launched on January 1, 2026. Since launch, revenue is up by over 80% and fill rate has roughly doubled.
 
-**[Try the live demo: interactive prototype](https://josephfanpm.github.io/eshyft-1099/)** · [Full case study](docs/CASE_STUDY.md) · [Requirements (PRD)](docs/PRD.md)
+**[Try the live demo: interactive prototype](https://josephfanpm.github.io/Eshyft-doubled-revenue/)** · [Full case study](docs/CASE_STUDY.md) · [Requirements (PRD)](docs/PRD.md)
 
 Try this first: switch between Before: W-2 and After: 1099, then apply to a shift and compare a W-2 paycheck with a contractor payout.
 
